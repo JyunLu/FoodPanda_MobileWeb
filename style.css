@@ -1,0 +1,36 @@
+.address_section{
+    background-image: url(https://images.deliveryhero.io/image/foodpanda/hero-home-tw.jpg?width=800&height=512);
+    background-position: 70vw;
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+
+.address_section__slogan h1{
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.navbar__logo{
+    color: #D70F64;
+    font-size: 1.4em;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.search__button button{
+    background-color: #D70F64;
+    color: white;
+    border-radius: 0%;
+    height: 64px;
+    font-weight: 600;
+}
+
+.search__input input{
+    color: white;
+    border-radius: 0%;
+    height: 64px;
+    box-shadow: none;
+    border: 1px solid #dcdcdc;
+    box-shadow: 0 2px 28px 0 rgba(0,0,0,0.12);
+}

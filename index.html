@@ -3,32 +3,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foodpanda</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar d-flex justify-content-between" style="height:64px;">
-        <div class="navbar__user"><img height="40" src="./image/user.svg"></div>
-        <div class="navbar__logo"><a class="navbar-brand" href="#">Foodpanda</a></div>
-        <div class="navbar__bag"><img height="40" src="./image/shopping-bag.svg"></div>
+        <img class="navbar__user" height="30" src="./image/user.svg">
+        <a class="navbar__logo navbar-brand" href="#">foodpanda</a>
+        <img class="navbar__bag" height="30" src="./image/shopping-bag.svg">
     </nav>
-    <div class="address_section container">
-        <div class="address_section__slogan py-5 pr-5">
-            <h1>把您喜愛的美食外送給您</h1>
+    <div class="address_section px-4 pb-5">
+        <div class="address_section__slogan container pl-0 py-5 pr-5">
+            <h1>把您喜愛的美食親手外送給您</h1>
         </div>
         <div class="address_section__search container px-0">
             <form action="">
                 <div class="search__input ">
-                    <input class="w-100" type="text" placeholder="輸入您欲送達的地址">
+                    <input class="w-100 px-3" type="text" placeholder="輸入您欲送達的地址">
                 </div>
-                <div class="search__button">
-                    <button class="btn">外送</button>
-                    <button class="btn">外帶自取</button>
+                <div class="search__button d-flex align-items-center my-3">
+                    <button class="btn d-inline-block w-100">外送</button>
+                    <span class="mx-2">或</span>
+                    <button class="btn d-inline-block w-100">外帶自取</button>
                 </div>
             </form>
         </div>
     </div>
-
-
 
 
 
