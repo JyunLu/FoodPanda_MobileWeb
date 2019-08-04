@@ -1,3 +1,14 @@
+.btn{
+    background-color: #D70F64;
+    color: #fff;
+}
+
+.navbar{
+    height: 64px;
+    background-color: #fff;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.08);
+}
+
 .address_section{
     background-image: url(https://images.deliveryhero.io/image/foodpanda/hero-home-tw.jpg?width=800&height=512);
     background-position: 70vw;
@@ -88,4 +99,12 @@
 .footer_section{
     background-color: #D70F64;
     color: white;
+}
+
+.food_item{
+    box-shadow: 0 4px 14px 0 rgba(0,0,0,0.12);
+}
+
+#food_page{
+    font-family: '微軟正黑體';
 }
